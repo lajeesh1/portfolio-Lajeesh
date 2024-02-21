@@ -23,6 +23,7 @@
     font-size: 65px;
     font-weight: 600;
     margin-bottom: 33px;
+
     font-family: var(--font-roboto);
     background: linear-gradient(90deg, rgba(255, 255, 25 5, 1)70%, rgba(2 55, 255, 255, 0)120%);
 
@@ -53,28 +54,30 @@
 
 .topBlur {
     position: absolute;
-    width: 50vh;
-    height: 50vh;
-    min-width: 350px;
-    min-height: 350px;
+    width: 30vh;
+    height: 20vh;
+    min-width: 200px;
+    min-height: 200px;
     top: -128px;
     left: 10vw;
     border: 750px;
-    background: rgba(25, 55, 109, 0.7);
+    background: rgba(65, 106, 182, 0.788);
     filter: blur(100px);
+
 }
 
 .bottomBlur {
     position: absolute;
-    width: 70vh;
+    width: 50h;
     height: 50vh;
-    min-width: 350px;
-    min-height: 250px;
+    min-width: 250px;
+    min-height: 200px;
     top: 246px;
-    right: -25vw;
+    right: 2px;
     border-radius: 750px;
-    background: rgba(25, 55, 109, 0.7);
+    background: rgba(9, 15, 29, 0.918);
     filter: blur(100px);
+
 }
 
 @media screen and (max-width:830px) {
@@ -84,5 +87,10 @@
 
     .content {
         align-items: center;
+    }
+
+    .title,
+    .content {
+        text-align: center;
     }
 }
