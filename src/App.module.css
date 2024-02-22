@@ -6,17 +6,3 @@
     height: 100%;
     color: rgb(255, 255, 255);
 }
-
-.content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    color: var(--color-text);
-    z-index: 1;
-
-
-}
-.title {
-    font-size: 720px;
-
-}
