@@ -70,14 +70,14 @@
 
 .bottomBlur {
   position: absolute;
-  width: 50h;
+  width: 30h;
   height: 50vh;
   min-width: 250px;
   min-height: 200px;
   top: 246px;
   right: 2px;
   border-radius: 750px;
-  background: rgba(9, 15, 29, 0.918);
+  background: rgba(56, 80, 139, 0.397);
   filter: blur(100px);
 }
 
