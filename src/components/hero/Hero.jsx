@@ -8,8 +8,8 @@ function Hero() {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi I'm Lajeesh</h1>
         <p className={styles.description}>
-          I am fullstack developer with 5 years of experience, with React and
-          NodeJS
+          Currently a Systems Manager at Sree Gokulam Group, I'm working towards
+          becoming a proficient MERN stack developer.
         </p>
         <a className={styles.contactBtn} href="mailto:lajeeshk@hotmail.com">
           Contact Me

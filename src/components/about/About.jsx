@@ -17,21 +17,21 @@ function About() {
             <img src={getImageUrl("about/cursorIcon.png")} alt="cursor img" />
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
-              <p>I am front end developer with 2 year experience</p>
+              <p>HTML, CSS, JavaScript, React</p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="cursor img" />
             <div className={styles.aboutItemText}>
-              <h3>BAckend Developer</h3>
-              <p>I am front end developer with 2 year experience</p>
+              <h3>Backend Developer</h3>
+              <p>NodeJS, Mongo, SQL</p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="cursor img" />
             <div className={styles.aboutItemText}>
               <h3>UL/UX Designer</h3>
-              <p>I am front end developer with 2 year experience</p>
+              <p>Figma, Photoshop</p>
             </div>
           </li>
         </ul>
