@@ -30,7 +30,7 @@ function About() {
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="cursor img" />
             <div className={styles.aboutItemText}>
-              <h3>UL/UX Designer</h3>
+              <h3>UI/UX Designer</h3>
               <p>Figma, Photoshop</p>
             </div>
           </li>
