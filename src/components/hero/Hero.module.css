@@ -25,6 +25,9 @@
   margin-bottom: 33px;
 
   font-family: var(--font-roboto);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 85px;
   background: linear-gradient(
     90deg,
     rgba(255, 255, 25 5, 1) 70%,
@@ -35,7 +38,7 @@
 .description {
   font-size: 1.25rem;
   font-family: var(--font-roboto);
-  color: rgba(240, 248, 255, 0.596);
+  color: rgba(237, 240, 243, 0.911);
   margin-bottom: 52px;
   z-index: 0;
 }
