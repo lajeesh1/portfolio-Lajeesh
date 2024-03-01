@@ -26,7 +26,8 @@ function Experience() {
                 alt={`${history.organisation} logo`}
               />
               <div className={styles.historyItemDetails}>
-                <h3>{`${history.role}, ${history.organisation}`}</h3>
+                <h3>{`${history.role}`}</h3>
+                <h3 className={styles.company}>{` ${history.organisation}`}</h3>
                 <p>{`${history.startDate} - ${history.endDate}`}</p>
                 <ul>
                   {history.experiences.map((experience, id) => (
@@ -34,6 +35,7 @@ function Experience() {
                   ))}
                 </ul>
               </div>
+              <div className={styles.blur}></div>
             </li>
           ))}
         </ul>

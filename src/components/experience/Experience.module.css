@@ -75,6 +75,7 @@
     background: var(--color-secondary);
     border-radius: 10px;
     padding: 24px;
+    overflow: hidden;
 
 }
 
@@ -103,6 +104,38 @@
 
 }
 
+.company {
+    color: rgba(240, 248, 255, 0.733);
+}
+
+.historyItem img {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(243, 242, 239, 0.205);
+    border-radius: 7px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    margin: 8px;
+    display: block;
+    margin-right: 18px;
+    box-sizing: border-box;
+}
+
+
+.blur {
+    position: relative;
+    top: 0;
+    width: 100px;
+    height: 80px;
+    background-color: rgba(158, 192, 224, 0.466);
+    filter: blur(90px);
+    overflow: hidden;
+}
 @media screen and (max-width:830px) {
     .content {
         flex-direction: column;

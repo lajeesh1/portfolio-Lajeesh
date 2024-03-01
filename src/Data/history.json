@@ -1,29 +1,35 @@
 [
   {
-    "role": "Software Engineer",
-    "organisation": "Google",
-    "startDate": "Sept, 2022",
-    "endDate": "Present",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-    "imageSrc": "history/google.png"
-  },
-  {
-    "role": "UI Designer",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2021",
-    "endDate": "Aug, 2022",
-    "experiences": ["Worked on Windows 11", "Designed the control panel"],
-    "imageSrc": "history/microsoft.png"
-  },
-  {
-    "role": "SWE Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2020",
-    "endDate": "Jun, 2020",
+    "role": "Web Designer",
+    "organisation": "Max Media",
+    "startDate": "Sep, 2006",
+    "endDate": "Mar, 2007",
     "experiences": [
-      "Worked on component library",
-      "Helped create UI components"
+      "creating interactive and visually appealing animations on websites"
     ],
-    "imageSrc": "history/netflix.png"
+    "imageSrc": "history/gokulam.png"
+  },
+  {
+    "role": "System Engineer",
+    "organisation": "Gokulam Group",
+    "startDate": "Nov, 2008",
+    "endDate": "Mar, 2021",
+    "experiences": [
+      "Hardware and Software troubleshoot",
+      "Implementation and Integration"
+    ],
+    "imageSrc": "history/gokulam.png"
+  },
+  {
+    "role": "Manager Systems",
+    "organisation": "Gokulam Group",
+    "startDate": "Apr, 2021",
+    "endDate": "Present",
+    "experiences": [
+      "Infrastructure Management",
+      "System Security",
+      "Troubleshooting and Support"
+    ],
+    "imageSrc": "history/gokulam.png"
   }
 ]
