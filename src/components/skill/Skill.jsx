@@ -40,17 +40,20 @@ function Skill() {
                 <p className={styles.skill}>NodeJS</p>
                 <p className={styles.skill}>MongoDB</p>
                 <p className={styles.skill}>SQL</p>
+                <p className={styles.skill}>Java</p>
               </div>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <div className={styles.image}>
-              <p>UI/UX</p>
+              <p>Tools</p>
               <img src={getImageUrl("skill/ui.png")} alt="cursor img" />
             </div>
             <div className={styles.aboutItemText}>
               <div className={styles.skills}>
                 <p className={styles.skill}>Figma</p>
+                <p className={styles.skill}>Git</p>
+                <p className={styles.skill}>VsCode</p>
                 <p className={styles.skill}>Photoshop</p>
               </div>
             </div>
