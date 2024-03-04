@@ -8,16 +8,6 @@ function Experience() {
     <section className={styles.container} id="experience">
       <h2 className={styles.title}>Experience</h2>
       <div className={styles.content}>
-        <div className={styles.skills}>
-          {skills.map((skill, id) => (
-            <div className={styles.skill} key={id}>
-              <div className={styles.skillImageContainer}>
-                <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
-              </div>
-              <p>{skill.title}</p>
-            </div>
-          ))}
-        </div>
         <ul className={styles.history}>
           {history.map((history, id) => (
             <li className={styles.historyItem} key={id}>
@@ -26,7 +16,8 @@ function Experience() {
                 alt={`${history.organisation} logo`}
               />
               <div className={styles.historyItemDetails}>
-                <h3>{`${history.role}, ${history.organisation}`}</h3>
+                <h3>{`${history.role}`}</h3>
+                <h3 className={styles.company}>{` ${history.organisation}`}</h3>
                 <p>{`${history.startDate} - ${history.endDate}`}</p>
                 <ul>
                   {history.experiences.map((experience, id) => (
@@ -34,6 +25,7 @@ function Experience() {
                   ))}
                 </ul>
               </div>
+              <div className={styles.blur}></div>
             </li>
           ))}
         </ul>

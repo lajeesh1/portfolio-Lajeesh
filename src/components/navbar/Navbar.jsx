@@ -30,7 +30,7 @@ function Navbar() {
             className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
           >
             <li>
-              <a href="#about">About</a>
+              <a href="#about">Skill</a>
             </li>
 
             <li>
