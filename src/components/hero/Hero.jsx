@@ -19,8 +19,9 @@ function Hero() {
           Contact Me
         </a> */}
         <div className={styles.socialMedia}>
-          <img src={fb} alt="facebook" />
           <img src={git} alt="git" />
+          <img src={fb} alt="facebook" />
+
           <img src={linkedin} alt="linkdin" />
           <img src={insta} alt="insta" />
         </div>
