@@ -138,8 +138,14 @@
     align-items: center;
     gap: 34px;
     width: 100%;
+
   }
+
   .container {
+    padding: 10px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
   }
 
   .skill {
@@ -151,6 +157,7 @@
     width: 100%;
     gap: 9px;
   }
+
   .title {
     text-align: center;
   }
