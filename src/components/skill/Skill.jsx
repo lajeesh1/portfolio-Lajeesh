@@ -8,11 +8,11 @@ function Skill() {
       <h2 className={styles.title}>Skill</h2>
 
       <div className={styles.content}>
-        <img
+        {/* <img
           className={styles.aboutImage}
           src={getImageUrl("skill/aboutImage.png")}
           alt="about image"
-        />
+        /> */}
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
             <div className={styles.image}>
