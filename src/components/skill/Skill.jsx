@@ -23,34 +23,38 @@ function Skill() {
               <ul className={styles.skills}>
                 <li className={styles.skill}>
                   <div className={styles.html}>
-                    <p>
-                      HTML <span>90%</span>
-                    </p>
+                    <p>HTML</p>
+                    <h5>90%</h5>
                   </div>
                 </li>
                 <li className={styles.skill}>
-                  <div>
+                  <div className={styles.css}>
                     <p>CSS</p>
+                    <h5>85%</h5>
                   </div>
                 </li>
                 <li className={styles.skill}>
-                  <div>
+                  <div className={styles.javascript}>
                     <p>Javascript</p>
+                    <h5>65%</h5>
                   </div>
                 </li>
                 <li className={styles.skill}>
-                  <div>
+                  <div className={styles.react}>
                     <p>React</p>
+                    <h5>60%</h5>
                   </div>
                 </li>
                 <li className={styles.skill}>
-                  <div>
+                  <div className={styles.tailwind}>
                     <p>Tailwind</p>
+                    <h5>75%</h5>
                   </div>
                 </li>
                 <li className={styles.skill}>
-                  <div>
+                  <div className={styles.bootstrap}>
                     <p>Bootstrap</p>
+                    <h5>50%</h5>
                   </div>
                 </li>
               </ul>
