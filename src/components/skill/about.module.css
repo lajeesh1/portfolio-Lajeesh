@@ -37,7 +37,7 @@
   color: var(--color-text);
   display: flex;
   align-items: center;
-  width: 80%;
+  width: 90%;
   flex-direction: column;
   gap: 50px;
 }
@@ -91,7 +91,7 @@
 
 .skills {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .skill {
@@ -103,13 +103,14 @@
   border-radius: 50px;
   padding-left: 5px;
   padding-right: 5px;
+
 }
 
-.skills p {
+.skills {
   padding: 3px;
   padding-left: 9px;
   padding-right: 9px;
-  background-color: #0b2447bb;
+  width: 100%;
 }
 
 .image p {
@@ -122,6 +123,14 @@
 
 .aboutItemText p {
   font-size: 16px;
+  padding: 5px;
+  
+  }
+  
+  .aboutItemText {
+    display: flex;
+  
+    width: 100%;
 }
 
 @media screen and (max-width: 830px) {
