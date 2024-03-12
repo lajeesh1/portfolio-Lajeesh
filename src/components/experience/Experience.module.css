@@ -108,7 +108,7 @@
 
   align-items: center;
   justify-content: center;
-  background-color: rgba(243, 242, 239, 0.205);
+  background-color: rgb(243, 242, 239);
   border-radius: 7px;
   object-fit: cover;
   display: flex;
@@ -158,5 +158,12 @@
 
   .title {
     text-align: center;
+  }
+  .historyItem {
+    display: flex;
+    flex-direction: column;
+  }
+  .blur {
+    display: none;
   }
 }

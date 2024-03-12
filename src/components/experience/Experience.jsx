@@ -24,7 +24,7 @@ function Experience() {
                     <li key={id}>{experience}</li>
                   ))}
                 </ul>
-              </div>
+              </div> 
               <div className={styles.blur}></div>
             </li>
           ))}
