@@ -20,14 +20,40 @@ function Skill() {
               <img src={getImageUrl("skill/frontend.png")} alt="cursor img" />
             </div>
             <div className={styles.aboutItemText}>
-              <div className={styles.skills}>
-                <p className={styles.skill}>HTML</p>
-                <p className={styles.skill}>CSS</p>
-                <p className={styles.skill}>Javascript</p>
-                <p className={styles.skill}>React</p>
-                <p className={styles.skill}>Tailwind</p>
-                <p className={styles.skill}>Bootstrap</p>
-              </div>
+              <ul className={styles.skills}>
+                <li className={styles.skill}>
+                  <div className={styles.html}>
+                    <p>
+                      HTML <span>90%</span>
+                    </p>
+                  </div>
+                </li>
+                <li className={styles.skill}>
+                  <div>
+                    <p>CSS</p>
+                  </div>
+                </li>
+                <li className={styles.skill}>
+                  <div>
+                    <p>Javascript</p>
+                  </div>
+                </li>
+                <li className={styles.skill}>
+                  <div>
+                    <p>React</p>
+                  </div>
+                </li>
+                <li className={styles.skill}>
+                  <div>
+                    <p>Tailwind</p>
+                  </div>
+                </li>
+                <li className={styles.skill}>
+                  <div>
+                    <p>Bootstrap</p>
+                  </div>
+                </li>
+              </ul>
             </div>
           </li>
           <li className={styles.aboutItem}>

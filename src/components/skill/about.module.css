@@ -124,16 +124,30 @@
 .aboutItemText p {
   font-size: 16px;
   padding: 5px;
-  
-  }
-  
-  .aboutItemText {
-    display: flex;
-  
-    width: 100%;
 }
 
-@media screen and (max-width: 830px) {
+.aboutItemText {
+  display: flex;
+
+  width: 100%;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+
+}
+
+.html {
+  background-color: rgb(48, 68, 110);
+  width: 90%;
+  margin-left: -10px;
+  padding-left: 10%;
+  z-index: 1;
+}
+
+/* @media screen and (max-width: 830px) {
   .container {
     background-color: transparent;
     padding-left: 0;
@@ -164,3 +178,4 @@
     padding-bottom: 15px;
   }
 }
+*/
