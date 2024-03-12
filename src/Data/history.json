@@ -5,9 +5,10 @@
     "startDate": "Sep, 2006",
     "endDate": "Mar, 2007",
     "experiences": [
-      "creating interactive and visually appealing animations on websites"
+      "Crafting engaging and visually captivating website animations using Flash to enhance interactivity and user experience.",
+      "Produced high-quality graphics,  banners, and promotional materials, utilizing Adobe Photoshop "
     ],
-    "imageSrc": "history/gokulam.png"
+    "imageSrc": "history/maxmedia.jpg"
   },
   {
     "role": "System Engineer",
@@ -15,8 +16,8 @@
     "startDate": "Nov, 2008",
     "endDate": "Mar, 2021",
     "experiences": [
-      "Hardware and Software troubleshoot",
-      "Implementation and Integration",
+      "Implemented scalable and reliable IT infrastructure solutions, including network and server configurations",
+      "Managed and maintained server infrastructure, including operating systems",
       "Database configuration and troubleshooting"
     ],
     "imageSrc": "history/gokulam.png"
@@ -27,9 +28,9 @@
     "startDate": "Apr, 2021",
     "endDate": "Present",
     "experiences": [
-      "Infrastructure Management",
-      "System Security",
-      "Troubleshooting and Support"
+      "Oversee the design, implementation, and maintenance of the company's IT infrastructure, including servers and networks.",
+      "Resolving complex issues and ensuring prompt resolution of IT-related incidents.",
+      "Provide advanced technical support and troubleshooting assistance to end-users. "
     ],
     "imageSrc": "history/gokulam.png"
   }

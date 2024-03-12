@@ -8,11 +8,11 @@ function Skill() {
       <h2 className={styles.title}>Skill</h2>
 
       <div className={styles.content}>
-        <img
+        {/* <img
           className={styles.aboutImage}
           src={getImageUrl("skill/aboutImage.png")}
           alt="about image"
-        />
+        /> */}
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
             <div className={styles.image}>
@@ -20,14 +20,44 @@ function Skill() {
               <img src={getImageUrl("skill/frontend.png")} alt="cursor img" />
             </div>
             <div className={styles.aboutItemText}>
-              <div className={styles.skills}>
-                <p className={styles.skill}>HTML</p>
-                <p className={styles.skill}>CSS</p>
-                <p className={styles.skill}>Javascript</p>
-                <p className={styles.skill}>React</p>
-                <p className={styles.skill}>Tailwind</p>
-                <p className={styles.skill}>Bootstrap</p>
-              </div>
+              <ul className={styles.skills}>
+                <li className={styles.skill}>
+                  <div className={styles.html}>
+                    <p>HTML</p>
+                    <h5>90%</h5>
+                  </div>
+                </li>
+                <li className={styles.skill}>
+                  <div className={styles.css}>
+                    <p>CSS</p>
+                    <h5>85%</h5>
+                  </div>
+                </li>
+                <li className={styles.skill}>
+                  <div className={styles.javascript}>
+                    <p>Javascript</p>
+                    <h5>65%</h5>
+                  </div>
+                </li>
+                <li className={styles.skill}>
+                  <div className={styles.react}>
+                    <p>React</p>
+                    <h5>60%</h5>
+                  </div>
+                </li>
+                <li className={styles.skill}>
+                  <div className={styles.tailwind}>
+                    <p>Tailwind</p>
+                    <h5>75%</h5>
+                  </div>
+                </li>
+                <li className={styles.skill}>
+                  <div className={styles.bootstrap}>
+                    <p>Bootstrap</p>
+                    <h5>50%</h5>
+                  </div>
+                </li>
+              </ul>
             </div>
           </li>
           <li className={styles.aboutItem}>
@@ -36,12 +66,44 @@ function Skill() {
               <img src={getImageUrl("skill/backend.png")} alt="cursor img" />
             </div>
             <div className={styles.aboutItemText}>
-              <div className={styles.skills}>
-                <p className={styles.skill}>NodeJS</p>
-                <p className={styles.skill}>MongoDB</p>
-                <p className={styles.skill}>SQL</p>
-                <p className={styles.skill}>Java</p>
-              </div>
+              <ul className={styles.skills}>
+                <li className={styles.skill}>
+                  <div className={styles.html}>
+                    <p>HTML</p>
+                    <h5>90%</h5>
+                  </div>
+                </li>
+                <li className={styles.skill}>
+                  <div className={styles.css}>
+                    <p>CSS</p>
+                    <h5>85%</h5>
+                  </div>
+                </li>
+                <li className={styles.skill}>
+                  <div className={styles.javascript}>
+                    <p>Javascript</p>
+                    <h5>65%</h5>
+                  </div>
+                </li>
+                <li className={styles.skill}>
+                  <div className={styles.react}>
+                    <p>React</p>
+                    <h5>60%</h5>
+                  </div>
+                </li>
+                <li className={styles.skill}>
+                  <div className={styles.tailwind}>
+                    <p>Tailwind</p>
+                    <h5>75%</h5>
+                  </div>
+                </li>
+                <li className={styles.skill}>
+                  <div className={styles.bootstrap}>
+                    <p>Bootstrap</p>
+                    <h5>50%</h5>
+                  </div>
+                </li>
+              </ul>
             </div>
           </li>
           <li className={styles.aboutItem}>
