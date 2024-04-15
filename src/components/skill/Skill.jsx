@@ -22,16 +22,11 @@ function Skill() {
               <ul className={styles.skills}>
                 <li className={styles.skill}>
                   <div className={styles.html}>
-                    <p>HTML</p>
+                    <p>HTML & CSS</p>
                     <h5>90%</h5>
                   </div>
                 </li>
-                <li className={styles.skill}>
-                  <div className={styles.css}>
-                    <p>CSS</p>
-                    <h5>85%</h5>
-                  </div>
-                </li>
+
                 <li className={styles.skill}>
                   <div className={styles.javascript}>
                     <p>Javascript</p>
@@ -75,11 +70,29 @@ function Skill() {
                     <h5>50%</h5>
                   </div>
                 </li>
+                <li className={styles.skill}>
+                  <div className={styles.bootstrap}>
+                    <p>Figma</p>
+                    <h5>50%</h5>
+                  </div>
+                </li>
+                <li className={styles.skill}>
+                  <div className={styles.bootstrap}>
+                    <p>Photoshop</p>
+                    <h5>50%</h5>
+                  </div>
+                </li>
+                <li className={styles.skill}>
+                  <div className={styles.bootstrap}>
+                    <p>Git</p>
+                    <h5>50%</h5>
+                  </div>
+                </li>
               </ul>
             </div>
           </li>
 
-          <li className={styles.aboutItem}>
+          {/* <li className={styles.aboutItem}>
             <div className={styles.image}>
               <p>Tools</p>
               <img src={getImageUrl("skill/ui.png")} alt="cursor img" />
@@ -92,7 +105,7 @@ function Skill() {
                 <p className={styles.skill}>Photoshop</p>
               </div>
             </div>
-          </li>
+          </li> */}
         </ul>
       </div>
     </section>
