@@ -10,7 +10,7 @@ function Hero() {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi I'm Lajeesh</h1>
+        <h1 className={styles.title}>Hi, <br/> I'm Lajeesh</h1>
         <p className={styles.description}>
           Currently a Systems Manager at Sree Gokulam Group, I'm working towards
           becoming a proficient MERN stack developer.
