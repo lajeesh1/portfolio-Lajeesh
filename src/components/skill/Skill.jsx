@@ -23,69 +23,64 @@ function Skill() {
                 <li className={styles.skill}>
                   <div className={styles.html}>
                     <p>HTML & CSS</p>
-                    <h5>90%</h5>
+                    
                   </div>
                 </li>
 
                 <li className={styles.skill}>
                   <div className={styles.javascript}>
                     <p>Javascript</p>
-                    <h5>65%</h5>
+                    
                   </div>
                 </li>
                 <li className={styles.skill}>
                   <div className={styles.react}>
                     <p>React</p>
-                    <h5>60%</h5>
+                    
                   </div>
                 </li>
                 <li className={styles.skill}>
                   <div className={styles.node}>
                     <p>Node</p>
-                    <h5>35%</h5>
+                    
                   </div>
                 </li>
                 <li className={styles.skill}>
                   <div className={styles.mongo}>
                     <p>MongoDb</p>
-                    <h5>60%</h5>
+                    
                   </div>
                 </li>
                 <li className={styles.skill}>
                   <div className={styles.sql}>
                     <p>SQL</p>
-                    <h5>35%</h5>
+                   
                   </div>
                 </li>
 
                 <li className={styles.skill}>
                   <div className={styles.tailwind}>
                     <p>Tailwind</p>
-                    <h5>75%</h5>
+                    
                   </div>
                 </li>
                 <li className={styles.skill}>
                   <div className={styles.bootstrap}>
                     <p>Bootstrap</p>
-                    <h5>50%</h5>
+                    
                   </div>
                 </li>
                 <li className={styles.skill}>
-                  <div className={styles.bootstrap}>
+                  <div className={styles.figma}>
                     <p>Figma</p>
-                    <h5>50%</h5>
+                   
                   </div>
                 </li>
+                
                 <li className={styles.skill}>
-                  <div className={styles.bootstrap}>
-                    <p>Photoshop</p>
-                    <h5>50%</h5>
-                  </div>
-                </li>
-                <li className={styles.skill}>
-                  <div className={styles.bootstrap}>
+                  <div className={styles.git}>
                     <p>Git</p>
-                    <h5>50%</h5>
+                    
                   </div>
                 </li>
               </ul>
