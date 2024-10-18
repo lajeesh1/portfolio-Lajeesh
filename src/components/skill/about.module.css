@@ -154,6 +154,8 @@
 .git,
 .bootstrap {
   background-color: rgba(16, 73, 194, 0.384);
+  
+background-image: linear-gradient(90deg, #081c3a 0%, rgba(25, 55, 109, 1) 100%);
   border-RIGHT: 1px solid rgba(255, 255, 255, 0.568);
   width: 90%;
   margin-left: -10px;
@@ -176,7 +178,7 @@
 }
 
 .react {
-  width: 65%;
+  width: 80%;
 }
 .node {
   width: 45%;
@@ -192,14 +194,14 @@
 }
 
 .tailwind {
-  width: 55%;
+  width: 74%;
 }
 
 .bootstrap {
   width: 50%;
 }
 .git {
-  width: 50%;
+  width: 80%;
 }
 
 @media screen and (max-width: 830px) {
