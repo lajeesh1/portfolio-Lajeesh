@@ -1,6 +1,6 @@
 [
   {
-    "role": "Web Designer",
+    "role": "Weather App",
     "organisation": "Max Media",
     "startDate": "Sep, 2006",
     "endDate": "Mar, 2007",
@@ -8,10 +8,10 @@
       "Crafting engaging and visually captivating website animations using Flash to enhance interactivity and user experience.",
       "Produced high-quality graphics,  banners, and promotional materials, utilizing Adobe Photoshop "
     ],
-    "imageSrc": "history/maxmedia.jpg"
+    "imageSrc": "history/weather.png"
   },
   {
-    "role": "System Engineer",
+    "role": "Portfolio",
     "organisation": "Gokulam Group",
     "startDate": "Nov, 2008",
     "endDate": "Mar, 2021",
@@ -20,10 +20,10 @@
       "Managed and maintained server infrastructure, including operating systems",
       "Database configuration and troubleshooting"
     ],
-    "imageSrc": "history/gokulam.png"
+    "imageSrc": "history/port.png"
   },
   {
-    "role": "Manager Systems",
+    "role": "Interest Calculator",
     "organisation": "Gokulam Group",
     "startDate": "Apr, 2021",
     "endDate": "Present",
@@ -32,6 +32,6 @@
       "Resolving complex issues and ensuring prompt resolution of IT-related incidents.",
       "Provide advanced technical support and troubleshooting assistance to end-users. "
     ],
-    "imageSrc": "history/gokulam.png"
+    "imageSrc": "history/int.png"
   }
 ]
