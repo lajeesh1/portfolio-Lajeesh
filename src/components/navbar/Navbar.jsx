@@ -104,7 +104,7 @@ function Navbar() {
               <a href="#about">Skill</a>
             </li>
             <li>
-              <a href="#experience">Experience</a>
+              <a href="#experience">Projects</a>
             </li>
             <li>
               <a href="#contact">Contact</a>
