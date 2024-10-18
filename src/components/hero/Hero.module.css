@@ -72,7 +72,11 @@
 }
 
 .heroImg {
-  width: 50%;
+  width: 35%;
+  margin: 30px;
+  border: 5px solid rgb(248, 248, 248);
+  border-radius: 50%;
+  padding: 8px;
   z-index: 1;
 }
 
@@ -114,5 +118,13 @@
   .title,
   .content {
     text-align: center;
+  }
+  .heroImg {
+    width: 35%;
+    margin: 30px;
+    border: 1px solid rgb(248, 248, 248);
+    border-radius: 50%;
+    padding: 8px;
+    z-index: 1;
   }
 }
