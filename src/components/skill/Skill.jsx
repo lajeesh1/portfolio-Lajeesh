@@ -5,7 +5,7 @@ import styles from "./about.module.css";
 function Skill() {
   return (
     <section className={styles.container} id="about">
-      <h2 className={styles.title}>Skill</h2>
+      
 
       <div className={styles.content}>
         {/* <img
@@ -16,7 +16,8 @@ function Skill() {
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
             <div className={styles.image}>
-              <img src={getImageUrl("skill/frontend.png")} alt="cursor img" />
+            <h2 className={styles.title}>Skill</h2>
+              
             </div>
             <div className={styles.aboutItemText}>
               <ul className={styles.skills}>
