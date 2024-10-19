@@ -6,7 +6,7 @@ import styles from "./Experience.module.css";
 function Projects() {
   return (
     <section className={styles.container} id="experience">
-      <h2 className={styles.title}>Projects</h2>
+      <h3 className={styles.title}>Projects</h3>
       <div className={styles.content}>
         <ul className={styles.history}>
           {history.map((history, id) => (

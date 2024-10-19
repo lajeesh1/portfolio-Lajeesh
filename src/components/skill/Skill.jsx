@@ -16,7 +16,7 @@ function Skill() {
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
             <div className={styles.image}>
-            <h2 className={styles.title}>Skill</h2>
+            <div className={styles.title}> <h3>Skill</h3> </div>
               
             </div>
             <div className={styles.aboutItemText}>
