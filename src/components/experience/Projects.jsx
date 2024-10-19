@@ -46,7 +46,8 @@ import styles from "./Experience.module.css";
 function Projects() {
   return (
     <section className={styles.container} id="experience">
-      <h3 className={styles.title}>Projects</h3>
+      <h3 className={styles.title}>Projects <br /> <span>Github Repositories</span></h3>
+      
       <div className={styles.content}>
         <ul className={styles.history}>
           {history.map((item, id) => (

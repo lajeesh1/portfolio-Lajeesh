@@ -21,6 +21,11 @@
   text-align: center;
   padding-bottom: 55px;
 }
+.title span{
+  font-size: 14px;
+  color: lightgray;
+  text-transform: none;
+}
 
 .content {
   display: flex;
