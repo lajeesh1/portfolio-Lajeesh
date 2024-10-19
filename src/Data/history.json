@@ -1,7 +1,7 @@
 [
   {
     "role": "Weather App",
-    "organisation": "",
+    "link": "https://github.com/lajeesh1/weather-app",
     "startDate": "",
     "endDate": "",
     "experiences": [
@@ -10,7 +10,7 @@
   },
   {
     "role": "Portfolio",
-    "organisation": "",
+    "link": "https://github.com/lajeesh1/portfolio-Lajeesh",
     "startDate": "",
     "endDate": "",
     "experiences": [
@@ -20,7 +20,7 @@
   },
   {
     "role": "Interest Calculator",
-    "organisation": "",
+    "link": "https://github.com/lajeesh1/interestCalculator",
     "startDate": "",
     "endDate": "",
     "experiences": [

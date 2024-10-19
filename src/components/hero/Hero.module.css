@@ -20,9 +20,20 @@
   z-index: 1;
 }
 
-.socialMedia img {
-  filter: grayscale(50%);
+button{
+  background-color: #f5df66;
   height: 50px;
+  padding:0 25px ;
+  border-radius: 50px;
+  border: none;
+  margin-top: 25px;
+  font-size: 18px;
+
+}
+
+.socialMedia img {
+  filter: grayscale(100%);
+  height: 40px;
   margin: 8px;
   background-color: rgba(240, 248, 255, 0.842);
   padding: 8px;
@@ -36,8 +47,8 @@
 }
 
 .title {
-  font-size: 65px;
-  font-weight: 600;
+  font-size: 40px;
+  font-weight: 200;
   margin-bottom: 33px;
 
   font-family: var(--font-roboto);
@@ -49,6 +60,13 @@
     rgba(255, 255, 25 5, 1) 70%,
     rgba(2 55, 255, 255, 0) 120%
   );
+}
+
+.title span{
+  
+  font-size: 50px;
+  font-weight: 600;
+  
 }
 
 .description {
@@ -82,28 +100,28 @@
 
 .topBlur {
   position: absolute;
-  width: 30vh;
+  width: 70vh;
   height: 20vh;
   min-width: 200px;
   min-height: 200px;
   top: -128px;
-  left: 10vw;
+  left: 5px;
   border: 750px;
-  background: rgba(65, 106, 182, 0.788);
-  filter: blur(100px);
+  background: rgba(16, 93, 235, 0.651);
+  filter: blur(150px);
 }
 
 .bottomBlur {
   position: absolute;
-  width: 30h;
-  height: 50vh;
+  width: 15vh;
+  height: 25vh;
   min-width: 250px;
   min-height: 200px;
   top: 246px;
-  right: 2px;
+  right: 0px;
   border-radius: 750px;
-  background: rgba(56, 80, 139, 0.397);
-  filter: blur(100px);
+  background: rgba(16, 93, 235, 0.514);
+  filter: blur(75px);
 }
 
 @media screen and (max-width: 830px) {

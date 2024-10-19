@@ -6,6 +6,7 @@
   margin-left: auto;
   margin-right: auto;
   background-color: var(--color-secondary);
+ 
   
   border-radius: 0px;
   padding: 73px;
@@ -67,18 +68,33 @@
   gap: 40px;
 }
 
+.historyLink {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  text-align: center;
+}
+
+.historyLink:hover {
+  text-decoration: none;
+}
+
+
 .historyItem {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 17px;
   background: var(--color-secondary);
-  border-radius: 0px;
+  background-color: rgba(240, 248, 255, 0.048);
+  border-radius: 8px;
   padding: 24px;
   overflow: hidden;
 
   border: 1px solid rgba(255, 255, 255, 0.185);
+  transition: background-color 0.3s ease;
 }
+
 
 .historyItem img {
   width: 100px;
@@ -123,8 +139,14 @@
   display: block;
   margin-right: 18px;
   box-sizing: border-box;
+  
 }
-
+.historyItem img:hover{
+  .historyItem{
+    background-color: rgba(240, 248, 255, 0.192);
+    
+  }
+}
 
 
 .blur {
