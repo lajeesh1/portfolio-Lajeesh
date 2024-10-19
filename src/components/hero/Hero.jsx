@@ -51,16 +51,23 @@ function Hero() {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi I'm <br/>Lajeesh </h1>
+        <h1 className={styles.title}>
+          Hi I'm <br />
+          Lajeesh{" "}
+        </h1>
         <p className={styles.description}>
-          Currently a Systems Manager at Sree Gokulam Group, I'm working towards
-          becoming a proficient MERN stack developer.
+          Currently a Systems Manager at Sree Gokulam Group, <br /> I'm working
+          towards becoming a proficient MERN stack developer.
         </p>
         {/* <a className={styles.contactBtn} href="mailto:lajeeshk@hotmail.com">
           Contact Me
         </a> */}
         <div className={styles.socialMedia}>
-          <a href="https://github.com/lajeesh1?tab=repositories" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/lajeesh1?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={git} alt="git" />
           </a>
           <img src={fb} alt="facebook" />

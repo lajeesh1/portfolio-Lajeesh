@@ -20,15 +20,14 @@
   z-index: 1;
 }
 
-button{
+button {
   background-color: #f5df66;
   height: 50px;
-  padding:0 25px ;
+  padding: 0 25px;
   border-radius: 50px;
   border: none;
   margin-top: 25px;
   font-size: 18px;
-
 }
 
 .socialMedia img {
@@ -62,11 +61,9 @@ button{
   );
 }
 
-.title span{
-  
+.title span {
   font-size: 50px;
   font-weight: 600;
-  
 }
 
 .description {
@@ -120,7 +117,7 @@ button{
   top: 246px;
   right: 0px;
   border-radius: 750px;
-  background: rgba(16, 93, 235, 0.514);
+  background: rgba(16, 93, 235, 0.374);
   filter: blur(75px);
 }
 

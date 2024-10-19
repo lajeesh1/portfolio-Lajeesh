@@ -1,11 +1,10 @@
 [
   {
-    "role": "Weather App",
+    "role": "WeatherApp",
     "link": "https://github.com/lajeesh1/weather-app",
     "startDate": "",
     "endDate": "",
-    "experiences": [
-      ],
+    "experiences": [],
     "imageSrc": "history/weather.png"
   },
   {
@@ -13,18 +12,15 @@
     "link": "https://github.com/lajeesh1/portfolio-Lajeesh",
     "startDate": "",
     "endDate": "",
-    "experiences": [
-      
-    ],
+    "experiences": [],
     "imageSrc": "history/port.png"
   },
   {
-    "role": "Interest Calculator",
+    "role": "IntCalculator",
     "link": "https://github.com/lajeesh1/interestCalculator",
     "startDate": "",
     "endDate": "",
-    "experiences": [
-      ],
+    "experiences": [],
     "imageSrc": "history/int.png"
   }
 ]
