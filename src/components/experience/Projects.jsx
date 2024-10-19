@@ -13,12 +13,12 @@ function Projects() {
             <li className={styles.historyItem} key={id}>
               <img
                 src={getImageUrl(history.imageSrc)}
-                alt={`${history.organisation} logo`}
+                alt={`${history.app} logo`}
               />
               <div className={styles.historyItemDetails}>
-                <h3>{`${history.role}`}</h3>
+                <p>{`${history.role}`}</p>
                 <h3 className={styles.company}>{` ${history.organisation}`}</h3>
-                <p>{`${history.startDate} - ${history.endDate}`}</p>
+                <p>{`${history.startDate}  ${history.endDate}`}</p>
                 <ul>
                   {history.experiences.map((experience, id) => (
                     <li key={id}>{experience}</li>

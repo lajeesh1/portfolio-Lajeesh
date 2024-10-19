@@ -1,37 +1,30 @@
 [
   {
     "role": "Weather App",
-    "organisation": "Max Media",
-    "startDate": "Sep, 2006",
-    "endDate": "Mar, 2007",
+    "organisation": "",
+    "startDate": "",
+    "endDate": "",
     "experiences": [
-      "Crafting engaging and visually captivating website animations using Flash to enhance interactivity and user experience.",
-      "Produced high-quality graphics,  banners, and promotional materials, utilizing Adobe Photoshop "
-    ],
+      ],
     "imageSrc": "history/weather.png"
   },
   {
     "role": "Portfolio",
-    "organisation": "Gokulam Group",
-    "startDate": "Nov, 2008",
-    "endDate": "Mar, 2021",
+    "organisation": "",
+    "startDate": "",
+    "endDate": "",
     "experiences": [
-      "Implemented scalable and reliable IT infrastructure solutions, including network and server configurations",
-      "Managed and maintained server infrastructure, including operating systems",
-      "Database configuration and troubleshooting"
+      
     ],
     "imageSrc": "history/port.png"
   },
   {
     "role": "Interest Calculator",
-    "organisation": "Gokulam Group",
-    "startDate": "Apr, 2021",
-    "endDate": "Present",
+    "organisation": "",
+    "startDate": "",
+    "endDate": "",
     "experiences": [
-      "Oversee the design, implementation, and maintenance of the company's IT infrastructure, including servers and networks.",
-      "Resolving complex issues and ensuring prompt resolution of IT-related incidents.",
-      "Provide advanced technical support and troubleshooting assistance to end-users. "
-    ],
+      ],
     "imageSrc": "history/int.png"
   }
 ]

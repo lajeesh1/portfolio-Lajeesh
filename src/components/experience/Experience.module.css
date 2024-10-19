@@ -6,7 +6,8 @@
   margin-left: auto;
   margin-right: auto;
   background-color: var(--color-secondary);
-  border-radius: 15px;
+  
+  border-radius: 0px;
   padding: 73px;
 }
 
@@ -22,7 +23,7 @@
 
 .content {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   justify-content: space-evenly;
   margin-top: 14px;
 }
@@ -47,7 +48,7 @@
   align-items: center;
   justify-content: center;
   width: 120px;
-  height: 120px;
+  height: 180px;
 }
 
 .skillImageContainer img {
@@ -62,7 +63,7 @@
 
 .history {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 40px;
 }
 
@@ -72,7 +73,7 @@
   align-items: center;
   gap: 17px;
   background: var(--color-secondary);
-  border-radius: 10px;
+  border-radius: 0px;
   padding: 24px;
   overflow: hidden;
 
@@ -80,8 +81,8 @@
 }
 
 .historyItem img {
-  width: 50px;
-  padding: 9px;
+  width: 100px;
+  padding: 0px;
 }
 
 .historyItmDetails {
@@ -95,9 +96,9 @@
 
 .historyItmDetails ul {
   margin-top: 6px;
-  list-style-position: inside;
+ 
   font-size: 25px;
-  list-style-type: disc;
+  
   margin-left: 27px;
 }
 
@@ -110,18 +111,21 @@
 
   align-items: center;
   justify-content: center;
-  background-color: rgb(243, 242, 239);
-  border-radius: 7px;
+  background-color: rgba(243, 242, 239, 0);
+  border-radius: 10px;
   object-fit: cover;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60px;
+  width: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.185);
   margin: 8px;
   display: block;
   margin-right: 18px;
   box-sizing: border-box;
 }
+
+
 
 .blur {
   position: relative;
@@ -157,6 +161,13 @@
     width: 100%;
     gap: 9px;
   }
+
+  .history {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
 
   .title {
     text-align: center;
