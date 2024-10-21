@@ -36,7 +36,7 @@ function Contact() {
 
     // Validate if all fields are filled
     if (name && email && message) {
-      alert('Thank you for reaching out! We will get back to you shortly...');
+      alert('Thank you for reaching out!...  We will get back to you shortly...');
       
       // Reset input fields after successful submission
       setName('');
