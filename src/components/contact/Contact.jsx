@@ -49,12 +49,13 @@ function Contact() {
 
   return (
     <footer id="contact" className={styles.container}>
+      
+      
+      <form onSubmit={handleSubmit} className={styles.formContainer}>
       <div className={styles.text}>
         <h2>Contact</h2>
         <p>Feel free to reach out!</p>
       </div>
-      
-      <form onSubmit={handleSubmit} className={styles.formContainer}>
         <input
           type="text"
           placeholder="Name"
