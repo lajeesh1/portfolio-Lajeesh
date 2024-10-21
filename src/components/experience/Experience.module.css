@@ -18,7 +18,7 @@
   font-weight: 100;
   letter-spacing: 1.5px;
   text-align: center;
-  padding-bottom: 55px;
+  padding-bottom: 5px;
 }
 .title span {
   font-size: 14px;
@@ -30,7 +30,7 @@
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-evenly;
-  margin-top: 14px;
+  
 }
 
 .skills {
