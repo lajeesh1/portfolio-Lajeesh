@@ -109,7 +109,7 @@ function Hero() {
     <section className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.title}>
-          Hi I'm <br />
+          Hi, I'm <br />
           Lajeesh{" "}
         </h1>
         <p className={styles.description}>
