@@ -53,7 +53,7 @@ function Contact() {
       
       <form onSubmit={handleSubmit} className={styles.formContainer}>
       <div className={styles.text}>
-        <h2>Contact</h2>
+        <h2>Contact me</h2>
         <p>Feel free to reach out!</p>
       </div>
         <input
