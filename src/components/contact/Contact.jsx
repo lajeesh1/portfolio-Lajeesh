@@ -1,84 +1,62 @@
-// import React from "react";
-// import { getImageUrl } from "../../utils";
-// import styles from "./Contact.module.css";
-
-// function Contact() {
-//   return (
-//     <footer id="contact" className={styles.container}>
-//       <div className={styles.text}>
-//         <h2>Contact</h2>
-//         <p>Feel free to reach out !</p>
-//       </div>
-//       <form action="submit" className={styles.formContainer}>
-//   <input type="text" placeholder="Name" className={styles.inputName} />
-//   <input type="email" placeholder="Email" className={styles.inputEmail} />
-//   <textarea placeholder="Your message" className={styles.textArea}></textarea>
-//   <button className={styles.formButton} type="submit">Submit</button>
-// </form>
-      
-//     </footer>
-//   );
-// }
-// export default Contact;
 
 import React, { useState } from "react";
 import styles from "./Contact.module.css";
+import { ToastContainer, toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 function Contact() {
-  // State to track input values
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
-  // Function to handle form submission
   const handleSubmit = (e) => {
     e.preventDefault(); // Prevent default form submission (page reload)
 
-    // Validate if all fields are filled
+    // Ensure form is only submitted once
     if (name && email && message) {
-      alert('Thank you for reaching out!...  We will get back to you shortly...');
-      
-      // Reset input fields after successful submission
+      toast.success("Thank you! We will get back to you shortly..", { autoClose: 2000 }); 
       setName('');
       setEmail('');
       setMessage('');
     } else {
-      alert('Something went wrong. Please fill out all the fields.');
+      toast.error("Please fill out all fields.", { autoClose: 2000 });
     }
   };
 
   return (
     <footer id="contact" className={styles.container}>
-      
-      
       <form onSubmit={handleSubmit} className={styles.formContainer}>
-      <div className={styles.text}>
-        <h2>Contact me</h2>
-        <p>Feel free to reach out!</p>
-      </div>
+        <div className={styles.text}>
+          <h2>Contact me</h2>
+          <p>Feel free to reach out!</p>
+        </div>
         <input
           type="text"
           placeholder="Name"
           className={styles.inputName}
-          value={name} // Set the input value from state
-          onChange={(e) => setName(e.target.value)} // Update state on change
+          value={name}
+          onChange={(e) => setName(e.target.value)}
         />
         <input
           type="email"
           placeholder="Email"
           className={styles.inputEmail}
-          value={email} // Set the input value from state
-          onChange={(e) => setEmail(e.target.value)} // Update state on change
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
         />
         <textarea
           placeholder="Your message"
           className={styles.textArea}
-          value={message} // Set the textarea value from state
-          onChange={(e) => setMessage(e.target.value)} // Update state on change
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
         ></textarea>
         <button className={styles.formButton} type="submit">
           Submit
         </button>
+        <ToastContainer
+  style={{ fontSize: '16px' , padding:'3px', color:'black'}}
+/>
+
       </form>
     </footer>
   );
