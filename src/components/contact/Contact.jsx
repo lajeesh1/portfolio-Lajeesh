@@ -54,10 +54,24 @@ function Contact() {
           Submit
         </button>
         <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+        
   style={{ fontSize: '16px' , padding:'3px', color:'black'}}
 />
 
       </form>
+      <div className={styles.bottomBar} >
+        <p>Created by Lajeesh</p>
+      </div>
     </footer>
   );
 }
