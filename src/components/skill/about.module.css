@@ -3,6 +3,7 @@
 .container {
   position: relative;
   background-color: var(--color-secondary);
+  
   border-radius: 0px;
   padding: 73px;
   margin-top: 50px;
