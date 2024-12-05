@@ -43,11 +43,12 @@ function Hero() {
           Contact Me
         </button>
       </div>
-      <img
+      <div className={styles.img}><img
         className={styles.heroImg}
         src={getImageUrl("hero/heroImage_3.png") || "/fallback-image.png"}
         alt="Hero"
-      />
+      /></div>
+      
       <div className={styles.topBlur}></div>
       <div className={styles.bottomBlur}></div>
     </section>

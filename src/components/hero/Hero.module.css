@@ -88,10 +88,10 @@ button {
   padding: 17px 26px;
 }
 
-.heroImg {
-  width: 35%;
+.img .heroImg {
+  width: 80%;
   margin: 60px;
-  border: 5px solid rgb(248, 248, 248);
+  border: 1px solid rgb(248, 248, 248);
   border-radius: 50%;
   padding: 8px;
   z-index: 1;
@@ -123,9 +123,13 @@ button {
   filter: blur(75px);
 }
 
-@media screen and (max-width: 830px) {
+/* @media screen and (max-width: 830px) {
   .container {
+    display: flex;
     flex-direction: column-reverse;
+    justify-content: space-between;
+    
+    align-items: center;
   }
 
   .content {
@@ -144,6 +148,46 @@ button {
   .heroImg {
     width: 110px;
     margin: 50px;
+    border: 1px solid rgb(248, 248, 248);
+    border-radius: 50%;
+    padding: 2px;
+    z-index: 1;
+  }
+} */
+
+@media screen and (max-width: 830px) {
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+
+  }
+
+  .title {
+    margin-top: 0;
+  }
+
+  .img .heroImg {
+    width: 35%;
+    margin: 50px 0;
     border: 1px solid rgb(248, 248, 248);
     border-radius: 50%;
     padding: 2px;
