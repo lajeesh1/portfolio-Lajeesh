@@ -55,7 +55,7 @@ function Contact() {
         </button>
         <ToastContainer
         position="top-center"
-        autoClose={7000}
+        autoClose={10000}
         hideProgressBar={false}
         newestOnTop={false}
         closeOnClick

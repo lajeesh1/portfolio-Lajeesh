@@ -90,7 +90,7 @@ button {
 
 .heroImg {
   width: 35%;
-  margin: 30px;
+  margin: 60px;
   border: 5px solid rgb(248, 248, 248);
   border-radius: 50%;
   padding: 8px;
@@ -135,13 +135,18 @@ button {
   .title,
   .content {
     text-align: center;
+
+  }
+  .title{
+    margin-top: 0;
+
   }
   .heroImg {
-    width: 35%;
-    margin: 30px;
+    width: 110px;
+    margin: 50px;
     border: 1px solid rgb(248, 248, 248);
     border-radius: 50%;
-    padding: 8px;
+    padding: 2px;
     z-index: 1;
   }
 }

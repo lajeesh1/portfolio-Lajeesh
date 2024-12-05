@@ -45,8 +45,8 @@ function Hero() {
       </div>
       <img
         className={styles.heroImg}
-        src={getImageUrl("hero/heroImage_3.png")}
-        alt=""
+        src={getImageUrl("hero/heroImage_3.png") || "/fallback-image.png"}
+        alt="Hero"
       />
       <div className={styles.topBlur}></div>
       <div className={styles.bottomBlur}></div>
