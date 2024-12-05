@@ -44,6 +44,7 @@ function Hero() {
         </button>
       </div>
       <div className={styles.img}><img
+      loading="lazy"
         className={styles.heroImg}
         src={getImageUrl("hero/heroImage_3.png") || "/fallback-image.png"}
         alt="Hero"
